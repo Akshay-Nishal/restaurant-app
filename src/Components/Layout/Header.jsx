@@ -2,10 +2,11 @@ import React from 'react'
 import mealsBackground from '../assets/meals.jpg'
 import classes from './Header.module.css'
 import HeaderCartButton from './HeaderCartButton'
+import Summary from './Summary'
 
 function Header(props) {
-  return (
-    <>
+    return (
+        <>
     <header className={classes.header}>
         <h1>RealMeals</h1>
         <HeaderCartButton/>
@@ -13,7 +14,7 @@ function Header(props) {
     <div className={classes['main-image']}>
         <img src={mealsBackground} alt='MEALSSS' />
     </div>
-
+    <Summary/>
     </>
   )
 }
