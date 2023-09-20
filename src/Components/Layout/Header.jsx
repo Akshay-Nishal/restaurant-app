@@ -9,7 +9,7 @@ function Header(props) {
     <>
     <header className={classes.header}>
         <h1>RealMeals</h1>
-        <HeaderCartButton/>
+        <HeaderCartButton changeCartShow={props.changeCartShow}/>
     </header>
     <div className={classes['main-image']}>
         <img src={mealsBackground} alt='MEALSSS' />
