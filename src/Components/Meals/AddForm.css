@@ -1,0 +1,25 @@
+label {
+    font-weight: bold;
+    margin-right: 7px !important;
+    font-size: 15px;
+}
+
+input {
+    width: 3rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding-left: 0.5rem;
+}
+
+button {
+    font-size: 17px;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: none;
+    color: white;
+    padding: 0.25rem 1.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 5px !important;
+  }
