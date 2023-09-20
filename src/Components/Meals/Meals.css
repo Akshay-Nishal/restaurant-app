@@ -1,0 +1,21 @@
+.mealslist-body{
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.mealslist{
+    background-color: white;
+    margin: 50px;
+    width: 100%;
+    /* width: 75%; */
+}
+
+.list-item *{
+    margin: 0px;
+}
+
+.price{
+    margin-bottom: 30px;
+    color: brown;
+}
