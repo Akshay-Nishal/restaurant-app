@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import CartIcon from '../Cart/CartIcon'
 import classes from './HeaderCartButton.module.css'
+import { CartListContext } from '../../Contexts/CartContext'
 
 export default function HeaderCartButton(props) {
+  const ctx = useContext(CartListContext)
     
   return (
     <button onClick={props.changeCartShow} className={classes.button}>
@@ -13,7 +15,7 @@ export default function HeaderCartButton(props) {
             Your Cart
         </span>
         <span className={classes.badge}>
-            4
+          {ctx.cartNumber}
         </span>
     </button>
   )
